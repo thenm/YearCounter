@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@200&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.counter-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: 'IBM Plex Sans', sans-serif;
+    flex-direction: column;
+}
+
+.timer-container {
+    display: flex;
+    padding-left: 3rem;
+}
+
+.counter {
+    width: 120px;
+    height: 120px;
+}
+
+.counter p {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.next-year-container h3 {
+    font-weight: 200;
+}
